@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdul Momit | Portfolio</title>
     <style>
-        /* Base Reset & Variables */
         * {
             margin: 0;
             padding: 0;
@@ -17,7 +16,7 @@
         :root {
             --bg-primary: #1a365d; /* Dark Blue from image_a90246.jpg */
             --bg-secondary: #2a4365;
-            --accent-blue: #00bfff; /* Bright blue accent */
+            --accent-blue: #00bfff; 
             --text-light: #ffffff;
             --text-muted: #cbd5e0;
             --footer-bg: #1a202c;
@@ -29,7 +28,6 @@
             line-height: 1.6;
         }
 
-        /* Navigation */
         header {
             display: flex;
             justify-content: space-between;
@@ -60,7 +58,6 @@
             color: var(--accent-blue);
         }
 
-        /* Hero / Homepage Section */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -114,7 +111,6 @@
             transform: translateY(-2px);
         }
 
-        /* Generic Section Styling */
         section {
             padding: 5rem 10%;
             text-align: center;
@@ -142,7 +138,6 @@
             margin: 0 auto 3rem auto;
         }
 
-        /* Skills Section */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -164,7 +159,6 @@
             border-color: var(--accent-blue);
         }
 
-        /* Projects & Creative Grid */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -239,7 +233,6 @@
             color: var(--text-muted);
         }
 
-        /* Responsive adjustments */
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -256,7 +249,6 @@
 </head>
 <body>
 
-    <!-- Header Navigation -->
     <header>
         <div class="logo">AM</div>
         <nav>
@@ -269,7 +261,6 @@
         </nav>
     </header>
 
-    <!-- Homepage / Hero Section -->
     <section id="home" class="hero">
         <!-- Using image_a90246.jpg context for avatar placeholder -->
         <img src="profile.jpeg" alt="Abdul Momit" class="profile-img">
@@ -278,7 +269,6 @@
         <a href="#contact" class="btn">Contact Me</a>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <p class="section-desc">
@@ -287,7 +277,6 @@
         </p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" style="background-color: rgba(0,0,0,0.1);">
         <h2>Technical Skills</h2>
         <p class="section-desc">My technical stack and tools I use to bring ideas to reality.</p>
@@ -303,7 +292,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
         <h2>Technical Projects</h2>
         <p class="section-desc">A selection of my recent academic and engineering builds.</p>
@@ -316,7 +304,6 @@
                     <div class="card-tags">React • Node.js • MongoDB</div>
                 </div>
             </div>
-            <!-- Project 2 -->
             <div class="card">
                 <div class="card-content">
                     <h3>Task Management API</h3>
@@ -324,7 +311,6 @@
                     <div class="card-tags">Python • Express • PostgreSQL</div>
                 </div>
             </div>
-            <!-- Project 3 -->
             <div class="card">
                 <div class="card-content">
                     <h3>Portfolio Website</h3>
@@ -335,12 +321,10 @@
         </div>
     </section>
 
-    <!-- Creative / Optional Side Projects Section -->
     <section id="creative" style="background-color: rgba(0,0,0,0.1);">
         <h2>Creative Work & Hobbies</h2>
         <p class="section-desc">What I do when I'm not writing code—blogging, digital art, and side explorations.</p>
         <div class="grid">
-            <!-- Creative Item 1 -->
             <div class="card">
                 <div class="card-content">
                     <h3>Tech Blogging</h3>
@@ -348,7 +332,6 @@
                     <div class="card-tags">Writing • Publication</div>
                 </div>
             </div>
-            <!-- Creative Item 2 -->
             <div class="card">
                 <div class="card-content">
                     <h3>Photography</h3>
@@ -359,7 +342,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
         <h2>Get In Touch</h2>
         <p class="section-desc">Feel free to drop a line! I'm always open to discussing new engineering projects or creative collaborations.</p>
@@ -370,9 +352,8 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        &copy; 2026 Abdul Momit. Built with passion.
+        &copy; 2026 Abdul Momit.
     </footer>
 
 </body>
