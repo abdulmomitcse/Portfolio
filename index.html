@@ -14,10 +14,10 @@
         }
 
         :root {
-            --bg-dark: #04020f;       /* Deep obsidian dark background */
-            --bg-card: #0c091f;       /* Elegant translucent card navy */
-            --accent-blue: #00bfff;   /* Vibrant electric cyan */
-            --accent-purple: #7f00ff; /* Deep premium purple */
+            --bg-dark: #04020f;       
+            --bg-card: #0c091f;       
+            --accent-blue: #00bfff;   
+            --accent-purple: #7f00ff; 
             --text-light: #ffffff;
             --text-muted: #8e8ba2;
             --footer-bg: #06040b;
@@ -51,7 +51,6 @@
             padding: 0 2rem;
         }
 
-        /* Fixed Navigation Header */
         header {
             display: flex;
             justify-content: space-between;
@@ -209,7 +208,6 @@
             box-shadow: none;
         }
 
-        /* Large Image Container Frame */
         .hero-image-area {
             flex: 1;
             display: flex;
@@ -237,7 +235,6 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        /* Main Section Container Designs */
         section {
             padding: 7rem 0;
             text-align: left;
@@ -264,7 +261,6 @@
             margin-bottom: 3.5rem;
         }
 
-        /* --- HARDWARE-ACCELERATED SCROLL REVEAL STYLES --- */
         .reveal-element {
             opacity: 0;
             transform: translateY(24px);
@@ -278,7 +274,6 @@
             transform: translateY(0);
         }
 
-        /* Skills Layout */
         .skills-grid {
             display: flex;
             flex-wrap: wrap;
@@ -399,7 +394,6 @@
             border-color: var(--text-light);
         }
 
-        /* --- CONTACT MODAL POPUP SYSTEM --- */
         .modal-overlay {
             position: fixed;
             top: 0;
@@ -566,7 +560,6 @@
             overflow: hidden;
         }
 
-        /* Footer Architecture */
         footer {
             background-color: var(--footer-bg);
             text-align: center;
@@ -578,7 +571,6 @@
             z-index: 2;
         }
 
-        /* Responsive Breakpoints */
         @media (max-width: 992px) {
             .hero {
                 flex-direction: column-reverse;
@@ -672,7 +664,7 @@
             <p class="section-desc">My modern software engineering core competencies and technical infrastructure stack.</p>
             <div class="skills-grid">
                 <div class="skill-card reveal-element">HTML5 / CSS3</div>
-                <div class="skill-card reveal-element">JavaScript (ES6+)</div>
+                <div class="skill-card reveal-element">JavaScript</div>
                 <div class="skill-card reveal-element">React / Next.js</div>
                 <div class="skill-card reveal-element">Node.js</div>
                 <div class="skill-card reveal-element">Python</div>
@@ -758,12 +750,12 @@
                 <form id="portfolio-contact-form">
                     <div class="form-group">
                         <label for="user-name">YOUR NAME</label>
-                        <input type="text" id="user-name" class="form-control" placeholder="John Doe" required>
+                        <input type="text" id="user-name" class="form-control" placeholder="~~~~~~~~~~" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="user-email">EMAIL ADDRESS</label>
-                        <input type="email" id="user-email" class="form-control" placeholder="hello@domain.com" required>
+                        <input type="email" id="user-email" class="form-control" placeholder="abc@gmail.com" required>
                     </div>
                     
                     <div class="form-group">
@@ -864,7 +856,7 @@
 
 
         // --- 2. TYPEWRITER CAROUSEL EFFECT ---
-        const phrases = ["Modern UI/UX", "Vue.js", "Nuxt 3", "TypeScript"];
+        const phrases = ["Modern UI/UX", "js", "Next.js", "MongodB"];
         let phraseIndex = 0;
         let letterIndex = 0;
         let isDeleting = false;
